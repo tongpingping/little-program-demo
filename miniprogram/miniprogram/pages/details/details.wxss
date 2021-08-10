@@ -1,0 +1,130 @@
+/**index.wxss**/
+
+page {
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+.header{
+  box-sizing: border-box;
+  padding: 0 24rpx;
+  position: fixed;
+  height: 130rpx;
+  background-color: #FF6F26;
+  z-index: 9999;
+  }
+.title,
+.month-details,
+.totality,
+.day-details {
+  height: 56rpx;
+  line-height: 56rpx;
+  display: flex;
+  font-size: 21rpx;
+  color: #383833c9;
+  justify-content: start;
+  align-items: center;
+}
+
+.header-title,
+.header-item {
+  width: 240rpx;
+}
+.header-item {
+  height: 60rpx;
+  line-height: 60rpx;
+  vertical-align: middle;
+}
+.month-details {
+  margin-top: 6rpx;
+  color: black;
+}
+.num {
+  font-size: 40rpx;
+}
+.icon-font {
+  font-size: 24rpx;
+  margin-left: 8rpx;
+}
+.month::after {
+  content: "";
+  position: absolute;
+  width: 2rpx;
+  height: 47rpx;
+  background-color: #33333369;
+  top: 68rpx;
+  left: 180rpx;
+}
+.content {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 130rpx;
+  overflow-x: hidden;
+}
+.everyday {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 24rpx;
+}
+.totality {
+  position: relative;
+  color: #9e9d9d;
+  margin-top: 2px;
+  height: 60rpx;
+  line-height: 60rpx;
+  width: 100%;
+  justify-content: space-between;
+}
+.totality::after {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 2rpx;
+  background-color: #ece8e8d2;
+  top: 60rpx;
+  left: -5%;
+}
+.money {
+  display: inline-block;
+  margin-top: -1rpx;
+}
+.day-details {
+  height: 110rpx;
+  line-height: 100rpx;
+  color: black;
+  justify-content: space-between;
+}
+.left {
+  width: 70rpx;
+  height: 70rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 35rpx;
+  background-color: rgba(221, 197, 160, 0.281);
+}
+.icon {
+  width: 55rpx;
+  height: 55rpx;
+}
+.right {
+  position: relative;
+  width: 87%;
+  font-size: 24rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.right::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2rpx;
+  background-color: #ece8e8d2;
+  top: 90rpx;
+  left: 0;
+}

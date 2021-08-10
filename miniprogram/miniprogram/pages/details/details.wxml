@@ -1,0 +1,47 @@
+
+<!-- <nav-bar navbar-data='{{nvabarData}}'></nav-bar> -->
+<!-- <view class="wrap"> -->
+  <view class='header' style='margin-top: {{height}}px'>
+    <view class="title">
+      <text class="header-title">{{year}}年</text>
+      <text class="header-title">收入</text>
+      <text class="header-title">支出</text>
+    </view>
+    <wxs src="../../utils/format.wxs" module="wxs"></wxs>
+    <view class="month-details">
+    <picker mode="date" :value="{{nowDate}}" bindchange="bindDateChange" start="2000-01" end="2100-12" fields="month" class="header-item month">
+      <text class="num">{{month}}</text>月<icon class="iconfont icon-iconfontarrows1 icon-font"></icon>
+    </picker>
+    <view class="header-item">
+      <text class="num">{{wxs.formatValue(income,'split')[0]}}</text>.<text>{{wxs.formatValue(income,'split')[1]}}</text>
+    </view>
+    <view class="header-item">
+      <text class="num">{{wxs.formatValue(spending,'split')[0]}}</text>.<text>{{wxs.formatValue(spending,'split')[1]}}</text>
+    </view>
+    </view>
+  </view>
+  <view class="content">
+    <view wx:for="{{[1,2,3,4]}}" class="everyday">
+      <view class="totality">
+        <view class="time">
+        07月30日 星期五
+        </view>
+        <view class="income">
+        收入：<text class="money">800</text>
+        </view>
+        <view class="spending">
+        支出：<text class="money">300</text>
+        </view>
+      </view>
+      <view wx:for="{{[1,2,3]}}" class="day-details">
+        <view class="left">
+          <image class="icon" src="../../images/commodity.png"></image>
+        </view>
+        <view class="right">
+          <view class="name">日用</view>
+          <text class="amount">200</text>
+        </view>
+      </view>
+    </view>
+  </view>
+<!-- </view> -->

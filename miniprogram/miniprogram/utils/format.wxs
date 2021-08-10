@@ -1,0 +1,13 @@
+// 封装转换小数点前数字格式的方法
+function formatValue(value,type) {
+  var result = value
+  switch (type) {
+    case 'split':
+      result = result.split('.')
+      break;
+  }
+  return result
+}
+module.exports = {
+  formatValue: formatValue,
+}

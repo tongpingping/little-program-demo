@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/details/details",
+    "pages/chart/chart",
+    "pages/record/record",
+    "pages/bill/bill",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF6F26",
+    "navigationBarTitleText": "记账本",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#515151",
+    "list": [
+      {
+        "pagePath": "pages/details/details",
+        "text": "明细",
+        "selectedIconPath": "images/detail_select.png",
+        "iconPath": "images/detail.png"
+      },
+      {
+        "pagePath": "pages/chart/chart",
+        "text": "图表",
+        "selectedIconPath": "images/chart_select.png",
+        "iconPath": "images/chart.png"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "text": "记账",
+        "selectedIconPath": "images/add.png",
+        "iconPath": "images/add.png"
+      },
+      {
+        "pagePath": "pages/bill/bill",
+        "text": "账单",
+        "selectedIconPath": "images/bill_select.png",
+        "iconPath": "images/bill.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "selectedIconPath": "images/user_select.png",
+        "iconPath": "images/user.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
