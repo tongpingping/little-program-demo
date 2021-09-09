@@ -21,7 +21,7 @@
     </view>
   </view>
   <view class="content">
-    <view wx:for="{{[1,2,3,4]}}" class="everyday">
+    <view wx:for="{{[1,2,3,4]}}" wx:key="index" class="everyday">
       <view class="totality">
         <view class="time">
         07月30日 星期五
@@ -33,7 +33,7 @@
         支出：<text class="money">300</text>
         </view>
       </view>
-      <view wx:for="{{[1,2,3]}}" class="day-details">
+      <view wx:for="{{[1,2,3]}}" wx:key="index" class="day-details">
         <view class="left">
           <image class="icon" src="../../images/commodity.png"></image>
         </view>
