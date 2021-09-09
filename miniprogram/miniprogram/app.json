@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/details/details",
     "pages/chart/chart",
+    "pages/details/details",
     "pages/record/record",
     "pages/bill/bill",
     "pages/user/user"
