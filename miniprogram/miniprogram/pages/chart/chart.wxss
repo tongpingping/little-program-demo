@@ -38,12 +38,6 @@ page {
 .chart-header_right-week {
   border-right: 2rpx solid black;
 }
-.select {
-  border-top-left-radius: 18rpx;
-  border-bottom-left-radius: 18rpx;
-  background-color: rgb(48, 39, 39);
-  color: #FF6F26;
-}
 .chart-content {
   width: 100%;
   margin-top: 101rpx;

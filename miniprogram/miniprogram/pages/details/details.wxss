@@ -95,7 +95,7 @@ page {
   color: black;
   justify-content: space-between;
 }
-/* .left {
+.left {
   width: 70rpx;
   height: 70rpx;
   display: flex;
@@ -107,7 +107,7 @@ page {
 .icon {
   width: 55rpx;
   height: 55rpx;
-} */
+}
 .right {
   position: relative;
   width: 87%;

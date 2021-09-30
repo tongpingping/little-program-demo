@@ -1,1 +1,65 @@
-/* pages/record/record.wxss */
+.record-header {
+  box-sizing: border-box;
+  padding: 0 24rpx;
+  position: fixed;
+  height: 100rpx;
+  background-color: #FF6F26;
+  z-index: 9999;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 25rpx;
+  }
+.record-header_wapper {
+  border: 2rpx solid black;
+  border-radius: 16rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 24rpx;
+  display: flex;
+  margin: 0 auto;
+}
+.record-header-income,
+.record-header-spending {
+  width: 276rpx;
+  text-align: center;
+}
+.record-header-income {
+  border-right: 2rpx solid black;
+}
+.record-content {
+  margin-top: 101rpx;
+}
+.record-content_ul {
+  max-width: 710rpx;
+  display: flex;
+  flex-wrap:wrap;
+  padding: 0 20rpx;
+}
+.record-content_li {
+  width: 177rpx;
+  height: 160rpx;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  margin-top: 20rpx;
+}
+.icon-wapper {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: rgb(229, 230, 229);
+  border-radius: 50rpx;
+  text-align: center;
+  margin-bottom: 10rpx;
+}
+.icon {
+  width: 70rpx;
+  height: 70rpx;
+  margin-top: 15rpx;
+}
+.icon-text {
+  font-size: 22rpx;
+}
+.icon-select {
+  background-color: #ff874b ;
+}

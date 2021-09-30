@@ -1,10 +1,10 @@
 <view class="chart-header">
   <view class="chart-header_left">
-    <view class="chart-header_left-income select">支出</view>
+    <view class="chart-header_left-income select-left">支出</view>
     <view class="chart-header_left-spending">收入</view>
   </view>
   <view class="chart-header_right">
-    <view class="chart-header_right-week select">周</view>
+    <view class="chart-header_right-week select-left">周</view>
     <view class="chart-header_right-month">月</view>
     <view class="chart-header_right-year">年</view>
   </view>

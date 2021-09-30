@@ -77,3 +77,19 @@ page {
     top: 90rpx;
     left: 0;
   }
+  .select-left {
+    border-top-left-radius: 14rpx;
+    border-bottom-left-radius: 14rpx;
+    background-color: rgb(48, 39, 39);
+    color: #FF6F26;
+  }
+  .select-right {
+    border-top-right-radius: 14rpx;
+    border-bottom-right-radius: 14rpx;
+    background-color: rgb(48, 39, 39);
+    color: #FF6F26;
+  }
+  .select {
+    background-color: rgb(48, 39, 39);
+    color: #FF6F26;
+  }
